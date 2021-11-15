@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* teko_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* teko_testTests.m */; };
+		0B863B6BF1DE4AFEBDEF2D5B /* AvenirNextLTPro-BoldCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8591C577C8B44D494822AAA /* AvenirNextLTPro-BoldCn.otf */; };
+		113DD244A08742518264E814 /* AvenirNextLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D80754DB74044BF386D7F042 /* AvenirNextLTPro-Medium.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2A7104BBBB434D5EABF98706 /* AvenirNextLTPro-DemiCnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15E19ADAD21542CFA0D1B3BE /* AvenirNextLTPro-DemiCnIt.otf */; };
+		3709AF97B235B3DA250B2036 /* libPods-teko_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C92914E212F3D0A9FE39E9FB /* libPods-teko_test.a */; };
+		3A7F68ECC8EC402294183D07 /* AvenirNextLTPro-Cn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39FFBB284D3941F8A8ABD681 /* AvenirNextLTPro-Cn.otf */; };
+		4129AB0A0838441894E8D8B2 /* AvenirNextLTPro-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD251976AA44451F8D188718 /* AvenirNextLTPro-Heavy.otf */; };
+		46A3BBD6DA4D4138BB52DA4B /* AvenirNextLTPro-MediumCnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FED7B3F317EF42B08F388C92 /* AvenirNextLTPro-MediumCnIt.otf */; };
+		5608A2636BAA4B0B98CF701B /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89E321503CDB40C292C48F3C /* AvenirNextLTPro-Bold.otf */; };
+		5B65C6C0E6D4472283356FEC /* AvenirNextLTPro-HeavyCnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5114F6C553644C885AA7ECC /* AvenirNextLTPro-HeavyCnIt.otf */; };
+		5D740349EAFD40409B17588E /* AvenirNextLTPro-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = B73EC14C95AC4BC3B6CB61A4 /* AvenirNextLTPro-Demi.otf */; };
+		64DEEB172AD64E1A9C4440FF /* AvenirNextLTPro-UltLt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BCAFB9CB4CE401DA3C98D9A /* AvenirNextLTPro-UltLt.otf */; };
+		65DE13951FD344C58C602778 /* AvenirNextLTPro-DemiIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8DDF7CE664880BD1010ED /* AvenirNextLTPro-DemiIt.otf */; };
+		7B30A230BE2649C1B6CC11EA /* AvenirNextLTPro-HeavyCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86CC6E693DED4AB2936696A2 /* AvenirNextLTPro-HeavyCn.otf */; };
+		7EB5E94E20CE4A5C9BFE271D /* AvenirNextLTPro-DemiCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 934B7FC6A79D4C6C841F0B57 /* AvenirNextLTPro-DemiCn.otf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8BC0A13A064B487CAD9A76E1 /* AvenirNextLTPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A29E971F5DA4C37905C869B /* AvenirNextLTPro-BoldIt.otf */; };
+		8C7597B051344CA0AA7A627A /* AvenirNextLTPro-UltLtCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92159B77B378487E9CF63D24 /* AvenirNextLTPro-UltLtCn.otf */; };
+		A1902ADC4D864005BAD8BE11 /* AvenirNextLTPro-UltLtIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB02F3EB3203431A8151D355 /* AvenirNextLTPro-UltLtIt.otf */; };
+		BFF97DB0F0E84BEB836EA621 /* AvenirNextLTPro-MediumIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD88E19DA4794C45B43EC660 /* AvenirNextLTPro-MediumIt.otf */; };
+		C736010BC48629C800716A00 /* libPods-teko_test-teko_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4C052935CF3D96F4566424 /* libPods-teko_test-teko_testTests.a */; };
+		C94ACB3D775D4C41AA1AA276 /* AvenirNextLTPro-BoldCnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4419682B6AC34E24A81ACE46 /* AvenirNextLTPro-BoldCnIt.otf */; };
+		CC6987C3734C4F6B9ADE7A06 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93516808CCCD48BD8B05477C /* AvenirNextLTPro-It.otf */; };
+		D271CB82BB4243C587178322 /* AvenirNextLTPro-MediumCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD066379516F4D46BEA57451 /* AvenirNextLTPro-MediumCn.otf */; };
+		DE322858F07B4BCA9B2B9701 /* AvenirNextLTPro-CnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE58CD63D7ED4E07A92FFA4B /* AvenirNextLTPro-CnIt.otf */; };
+		E06B88BDD52A4127A66E1AE9 /* AvenirNextLTPro-HeavyIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94636EB2C022412184BCD084 /* AvenirNextLTPro-HeavyIt.otf */; };
+		E8172A5CCCF1414C89A8559E /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74D99EFA39614326ADB37C2F /* AvenirNextLTPro-Regular.otf */; };
+		FCC536D5510244C0BFC64817 /* AvenirNextLTPro-UltLtCnIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7511783423CE4D0DA08D9543 /* AvenirNextLTPro-UltLtCnIt.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = teko_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* teko_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teko_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* teko_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teko_testTests.m; sourceTree = "<group>"; };
+		00F14FBFC3794E7F8655A1D9 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		0A1C1DC607CC49E0842B58BA /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		0E238B6EC5B1B37D04F53389 /* Pods-teko_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teko_test.release.xcconfig"; path = "Target Support Files/Pods-teko_test/Pods-teko_test.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* teko_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teko_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = teko_test/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = teko_test/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = teko_test/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = teko_test/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = teko_test/main.m; sourceTree = "<group>"; };
+		15E19ADAD21542CFA0D1B3BE /* AvenirNextLTPro-DemiCnIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-DemiCnIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-DemiCnIt.otf"; sourceTree = "<group>"; };
+		1A29E971F5DA4C37905C869B /* AvenirNextLTPro-BoldIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-BoldIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-BoldIt.otf"; sourceTree = "<group>"; };
+		2165DC4D5405462B9BC62982 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		24F8DDF7CE664880BD1010ED /* AvenirNextLTPro-DemiIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-DemiIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-DemiIt.otf"; sourceTree = "<group>"; };
+		312D1F0E6BC049778A0D4882 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		3383EE5AD81D4361814BC604 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		39FFBB284D3941F8A8ABD681 /* AvenirNextLTPro-Cn.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Cn.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-Cn.otf"; sourceTree = "<group>"; };
+		4419682B6AC34E24A81ACE46 /* AvenirNextLTPro-BoldCnIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-BoldCnIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-BoldCnIt.otf"; sourceTree = "<group>"; };
+		489D5EE74A7A4DB4F1567D55 /* Pods-teko_test-teko_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teko_test-teko_testTests.debug.xcconfig"; path = "Target Support Files/Pods-teko_test-teko_testTests/Pods-teko_test-teko_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50CAE0540AED42188823A84B /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		6BCAFB9CB4CE401DA3C98D9A /* AvenirNextLTPro-UltLt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-UltLt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-UltLt.otf"; sourceTree = "<group>"; };
+		74D99EFA39614326ADB37C2F /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Regular.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		7511783423CE4D0DA08D9543 /* AvenirNextLTPro-UltLtCnIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-UltLtCnIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-UltLtCnIt.otf"; sourceTree = "<group>"; };
+		80FBDB46BEE74BA18153C2C6 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = teko_test/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86CC6E693DED4AB2936696A2 /* AvenirNextLTPro-HeavyCn.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-HeavyCn.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-HeavyCn.otf"; sourceTree = "<group>"; };
+		89E321503CDB40C292C48F3C /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Bold.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		92159B77B378487E9CF63D24 /* AvenirNextLTPro-UltLtCn.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-UltLtCn.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-UltLtCn.otf"; sourceTree = "<group>"; };
+		934B7FC6A79D4C6C841F0B57 /* AvenirNextLTPro-DemiCn.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-DemiCn.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-DemiCn.otf"; sourceTree = "<group>"; };
+		93516808CCCD48BD8B05477C /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-It.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-It.otf"; sourceTree = "<group>"; };
+		94636EB2C022412184BCD084 /* AvenirNextLTPro-HeavyIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-HeavyIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-HeavyIt.otf"; sourceTree = "<group>"; };
+		968F40FACAAF43969380C3C3 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		9B4C052935CF3D96F4566424 /* libPods-teko_test-teko_testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teko_test-teko_testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFB60B62B2749F4B6772B1F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		9E263410A9C441489B96E1CB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		A1F573F849784596AEC228DD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		A2B2BE61CB7A8CDB9CFECCAB /* Pods-teko_test-teko_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teko_test-teko_testTests.release.xcconfig"; path = "Target Support Files/Pods-teko_test-teko_testTests/Pods-teko_test-teko_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8591C577C8B44D494822AAA /* AvenirNextLTPro-BoldCn.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-BoldCn.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-BoldCn.otf"; sourceTree = "<group>"; };
+		B04972E72F18449E95A50CB2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		B09C6EA171714CCEA3AEF5F7 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		B5114F6C553644C885AA7ECC /* AvenirNextLTPro-HeavyCnIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-HeavyCnIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-HeavyCnIt.otf"; sourceTree = "<group>"; };
+		B73EC14C95AC4BC3B6CB61A4 /* AvenirNextLTPro-Demi.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Demi.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-Demi.otf"; sourceTree = "<group>"; };
+		BE58CD63D7ED4E07A92FFA4B /* AvenirNextLTPro-CnIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-CnIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-CnIt.otf"; sourceTree = "<group>"; };
+		C92914E212F3D0A9FE39E9FB /* libPods-teko_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teko_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB02F3EB3203431A8151D355 /* AvenirNextLTPro-UltLtIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-UltLtIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-UltLtIt.otf"; sourceTree = "<group>"; };
+		CF9BDF4063F04B8491913CB2 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		D80754DB74044BF386D7F042 /* AvenirNextLTPro-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Medium.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-Medium.otf"; sourceTree = "<group>"; };
+		D91FFBF4903F398499403C90 /* Pods-teko_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teko_test.debug.xcconfig"; path = "Target Support Files/Pods-teko_test/Pods-teko_test.debug.xcconfig"; sourceTree = "<group>"; };
+		DD251976AA44451F8D188718 /* AvenirNextLTPro-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Heavy.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-Heavy.otf"; sourceTree = "<group>"; };
+		DD88E19DA4794C45B43EC660 /* AvenirNextLTPro-MediumIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-MediumIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-MediumIt.otf"; sourceTree = "<group>"; };
+		E30E44E9DA86444C8CB01BD2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		E336148F46B3491A8BFDCB46 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD066379516F4D46BEA57451 /* AvenirNextLTPro-MediumCn.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-MediumCn.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-MediumCn.otf"; sourceTree = "<group>"; };
+		FED7B3F317EF42B08F388C92 /* AvenirNextLTPro-MediumCnIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-MediumCnIt.otf"; path = "../App/Assets/Fonts/AvenirNextLTPro-MediumCnIt.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C736010BC48629C800716A00 /* libPods-teko_test-teko_testTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3709AF97B235B3DA250B2036 /* libPods-teko_test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* teko_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* teko_testTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = teko_testTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* teko_test */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = teko_test;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				C92914E212F3D0A9FE39E9FB /* libPods-teko_test.a */,
+				9B4C052935CF3D96F4566424 /* libPods-teko_test-teko_testTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7731F36633614F609D4FDF1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89E321503CDB40C292C48F3C /* AvenirNextLTPro-Bold.otf */,
+				93516808CCCD48BD8B05477C /* AvenirNextLTPro-It.otf */,
+				74D99EFA39614326ADB37C2F /* AvenirNextLTPro-Regular.otf */,
+				00F14FBFC3794E7F8655A1D9 /* AntDesign.ttf */,
+				968F40FACAAF43969380C3C3 /* Entypo.ttf */,
+				80FBDB46BEE74BA18153C2C6 /* EvilIcons.ttf */,
+				3383EE5AD81D4361814BC604 /* Feather.ttf */,
+				CF9BDF4063F04B8491913CB2 /* FontAwesome.ttf */,
+				9CFB60B62B2749F4B6772B1F /* FontAwesome5_Brands.ttf */,
+				312D1F0E6BC049778A0D4882 /* FontAwesome5_Regular.ttf */,
+				50CAE0540AED42188823A84B /* FontAwesome5_Solid.ttf */,
+				B09C6EA171714CCEA3AEF5F7 /* Fontisto.ttf */,
+				E336148F46B3491A8BFDCB46 /* Foundation.ttf */,
+				2165DC4D5405462B9BC62982 /* Ionicons.ttf */,
+				0A1C1DC607CC49E0842B58BA /* MaterialCommunityIcons.ttf */,
+				B04972E72F18449E95A50CB2 /* MaterialIcons.ttf */,
+				E30E44E9DA86444C8CB01BD2 /* Octicons.ttf */,
+				A1F573F849784596AEC228DD /* SimpleLineIcons.ttf */,
+				9E263410A9C441489B96E1CB /* Zocial.ttf */,
+				A8591C577C8B44D494822AAA /* AvenirNextLTPro-BoldCn.otf */,
+				4419682B6AC34E24A81ACE46 /* AvenirNextLTPro-BoldCnIt.otf */,
+				1A29E971F5DA4C37905C869B /* AvenirNextLTPro-BoldIt.otf */,
+				39FFBB284D3941F8A8ABD681 /* AvenirNextLTPro-Cn.otf */,
+				BE58CD63D7ED4E07A92FFA4B /* AvenirNextLTPro-CnIt.otf */,
+				B73EC14C95AC4BC3B6CB61A4 /* AvenirNextLTPro-Demi.otf */,
+				934B7FC6A79D4C6C841F0B57 /* AvenirNextLTPro-DemiCn.otf */,
+				15E19ADAD21542CFA0D1B3BE /* AvenirNextLTPro-DemiCnIt.otf */,
+				24F8DDF7CE664880BD1010ED /* AvenirNextLTPro-DemiIt.otf */,
+				DD251976AA44451F8D188718 /* AvenirNextLTPro-Heavy.otf */,
+				86CC6E693DED4AB2936696A2 /* AvenirNextLTPro-HeavyCn.otf */,
+				B5114F6C553644C885AA7ECC /* AvenirNextLTPro-HeavyCnIt.otf */,
+				94636EB2C022412184BCD084 /* AvenirNextLTPro-HeavyIt.otf */,
+				D80754DB74044BF386D7F042 /* AvenirNextLTPro-Medium.otf */,
+				FD066379516F4D46BEA57451 /* AvenirNextLTPro-MediumCn.otf */,
+				FED7B3F317EF42B08F388C92 /* AvenirNextLTPro-MediumCnIt.otf */,
+				DD88E19DA4794C45B43EC660 /* AvenirNextLTPro-MediumIt.otf */,
+				6BCAFB9CB4CE401DA3C98D9A /* AvenirNextLTPro-UltLt.otf */,
+				92159B77B378487E9CF63D24 /* AvenirNextLTPro-UltLtCn.otf */,
+				7511783423CE4D0DA08D9543 /* AvenirNextLTPro-UltLtCnIt.otf */,
+				CB02F3EB3203431A8151D355 /* AvenirNextLTPro-UltLtIt.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* teko_test */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* teko_testTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				C1356595A028B982E9810B00 /* Pods */,
+				7731F36633614F609D4FDF1B /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* teko_test.app */,
+				00E356EE1AD99517003FC87E /* teko_testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1356595A028B982E9810B00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D91FFBF4903F398499403C90 /* Pods-teko_test.debug.xcconfig */,
+				0E238B6EC5B1B37D04F53389 /* Pods-teko_test.release.xcconfig */,
+				489D5EE74A7A4DB4F1567D55 /* Pods-teko_test-teko_testTests.debug.xcconfig */,
+				A2B2BE61CB7A8CDB9CFECCAB /* Pods-teko_test-teko_testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* teko_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "teko_testTests" */;
+			buildPhases = (
+				422751CDAD26158CA7F5E494 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				863201838F71D97C54CF75D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = teko_testTests;
+			productName = teko_testTests;
+			productReference = 00E356EE1AD99517003FC87E /* teko_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* teko_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "teko_test" */;
+			buildPhases = (
+				FDAD3FFECC102B6B1F70FB3A /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				B04150344F25BAFC6A282E70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teko_test;
+			productName = teko_test;
+			productReference = 13B07F961A680F5B00A75B9A /* teko_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "teko_test" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* teko_test */,
+				00E356ED1AD99517003FC87E /* teko_testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5608A2636BAA4B0B98CF701B /* AvenirNextLTPro-Bold.otf in Resources */,
+				CC6987C3734C4F6B9ADE7A06 /* AvenirNextLTPro-It.otf in Resources */,
+				E8172A5CCCF1414C89A8559E /* AvenirNextLTPro-Regular.otf in Resources */,
+				0B863B6BF1DE4AFEBDEF2D5B /* AvenirNextLTPro-BoldCn.otf in Resources */,
+				C94ACB3D775D4C41AA1AA276 /* AvenirNextLTPro-BoldCnIt.otf in Resources */,
+				8BC0A13A064B487CAD9A76E1 /* AvenirNextLTPro-BoldIt.otf in Resources */,
+				3A7F68ECC8EC402294183D07 /* AvenirNextLTPro-Cn.otf in Resources */,
+				DE322858F07B4BCA9B2B9701 /* AvenirNextLTPro-CnIt.otf in Resources */,
+				5D740349EAFD40409B17588E /* AvenirNextLTPro-Demi.otf in Resources */,
+				7EB5E94E20CE4A5C9BFE271D /* AvenirNextLTPro-DemiCn.otf in Resources */,
+				2A7104BBBB434D5EABF98706 /* AvenirNextLTPro-DemiCnIt.otf in Resources */,
+				65DE13951FD344C58C602778 /* AvenirNextLTPro-DemiIt.otf in Resources */,
+				4129AB0A0838441894E8D8B2 /* AvenirNextLTPro-Heavy.otf in Resources */,
+				7B30A230BE2649C1B6CC11EA /* AvenirNextLTPro-HeavyCn.otf in Resources */,
+				5B65C6C0E6D4472283356FEC /* AvenirNextLTPro-HeavyCnIt.otf in Resources */,
+				E06B88BDD52A4127A66E1AE9 /* AvenirNextLTPro-HeavyIt.otf in Resources */,
+				113DD244A08742518264E814 /* AvenirNextLTPro-Medium.otf in Resources */,
+				D271CB82BB4243C587178322 /* AvenirNextLTPro-MediumCn.otf in Resources */,
+				46A3BBD6DA4D4138BB52DA4B /* AvenirNextLTPro-MediumCnIt.otf in Resources */,
+				BFF97DB0F0E84BEB836EA621 /* AvenirNextLTPro-MediumIt.otf in Resources */,
+				64DEEB172AD64E1A9C4440FF /* AvenirNextLTPro-UltLt.otf in Resources */,
+				8C7597B051344CA0AA7A627A /* AvenirNextLTPro-UltLtCn.otf in Resources */,
+				FCC536D5510244C0BFC64817 /* AvenirNextLTPro-UltLtCnIt.otf in Resources */,
+				A1902ADC4D864005BAD8BE11 /* AvenirNextLTPro-UltLtIt.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		422751CDAD26158CA7F5E494 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teko_test-teko_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863201838F71D97C54CF75D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teko_test-teko_testTests/Pods-teko_test-teko_testTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teko_test-teko_testTests/Pods-teko_test-teko_testTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teko_test-teko_testTests/Pods-teko_test-teko_testTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04150344F25BAFC6A282E70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teko_test/Pods-teko_test-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teko_test/Pods-teko_test-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teko_test/Pods-teko_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDAD3FFECC102B6B1F70FB3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teko_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* teko_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* teko_test */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489D5EE74A7A4DB4F1567D55 /* Pods-teko_test-teko_testTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teko_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teko_test.app/teko_test";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B2BE61CB7A8CDB9CFECCAB /* Pods-teko_test-teko_testTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = teko_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teko_test.app/teko_test";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91FFBF4903F398499403C90 /* Pods-teko_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = teko_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = teko_test;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E238B6EC5B1B37D04F53389 /* Pods-teko_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = teko_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = teko_test;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "teko_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "teko_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "teko_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
